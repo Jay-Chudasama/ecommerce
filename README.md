@@ -1,7 +1,5 @@
 # ecommerce
-
-A new Flutter application.
-
+MY MALL VERSION 2
 ## Getting Started
 
 This project is a starting point for a Flutter application.
