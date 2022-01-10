@@ -33,7 +33,7 @@ class CartIconButton extends StatelessWidget {
               ),
               animationType: BadgeAnimationType.scale,
               child: Icon(
-                FontAwesomeIcons.shoppingCart,
+                FontAwesomeIcons.shoppingBag,
                 color: color,
               )));
     });

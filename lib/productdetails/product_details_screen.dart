@@ -209,12 +209,12 @@ class ProductDetailsScreen extends StatelessWidget {
                                                 .contains(optionsContainer
                                                     .selectedOptionId)
                                             ? "REMOVE"
-                                            : "ADD TO CART",
+                                            : "ADD TO BAG",
                                         style: TextStyle(
                                             fontWeight: FontWeight.bold),
                                       ),
                                       Icon(
-                                        FontAwesomeIcons.shoppingCart,
+                                        FontAwesomeIcons.shoppingBag,
                                         size: 20,
                                       )
                                     ],
@@ -345,7 +345,7 @@ class ProductDetailsScreen extends StatelessWidget {
                             IconButton(
                                 onPressed: null,
                                 icon: Icon(
-                                  FontAwesomeIcons.shoppingCart,
+                                  FontAwesomeIcons.shoppingBag,
                                   color: PRIMARY_SWATCH,
                                 ))
                           ],
@@ -398,11 +398,11 @@ class ProductDetailsScreen extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                "ADD TO CART",
+                                "ADD TO BAG",
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
                               Icon(
-                                FontAwesomeIcons.shoppingCart,
+                                FontAwesomeIcons.shoppingBag,
                                 size: 20,
                               )
                             ],

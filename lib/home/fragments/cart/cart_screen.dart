@@ -5,7 +5,7 @@ class CartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("My Cart",style: TextStyle(color: Colors.white),),),
+      appBar: AppBar(title: Text("My Bag",style: TextStyle(color: Colors.white),),),
       body: CartFragment(),
     );
   }

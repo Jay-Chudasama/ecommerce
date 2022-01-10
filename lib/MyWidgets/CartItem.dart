@@ -125,7 +125,7 @@ class CartItem extends StatelessWidget {
         child: Column(
       children: [
         Text(
-          'CART TOTAL',
+          'BAG TOTAL',
           style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16),
         ),
         SizedBox(

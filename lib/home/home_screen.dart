@@ -35,7 +35,7 @@ class HomeScreen extends StatefulWidget {
     DrawerItem("Home", FontAwesomeIcons.home),
     DrawerItem("My Orders", FontAwesomeIcons.box),
     DrawerItem("My Coupons", FontAwesomeIcons.ticketAlt),
-    DrawerItem("My Cart", FontAwesomeIcons.shoppingCart),
+    DrawerItem("My Bag", FontAwesomeIcons.shoppingBag),
     DrawerItem("My Wishlist", FontAwesomeIcons.solidHeart),
     DrawerItem("My Account", FontAwesomeIcons.solidUserCircle),
   ];
@@ -102,7 +102,7 @@ class HomeScreenState extends State<HomeScreen> {
                     width: 8,
                   ),
                   Text(
-                    'MYMALL',
+                    'FOODMALL',
                     style: TextStyle(
                         fontWeight: FontWeight.bold, color: Colors.white),
                   )

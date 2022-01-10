@@ -403,7 +403,7 @@ class _ShippingDetailsScreenState extends State<ShippingDetailsScreen> {
       "stage": stage,
       "notifyUrl": notifyUrl,
       "tokenData": tokenData,
-      "color1": "#50bc86",
+      "color1": "#ff0000",
       "color2": "#ffffff"
     };
     print('done');
